@@ -22,6 +22,7 @@ namespace DatingApp.API.Controllers
             this._context  = contest;
         }
         // GET api/values
+        [AllowAnonymous]
         [HttpGet]
         public async Task<List<Value>> GetValues()
         {
