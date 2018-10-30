@@ -16,21 +16,12 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
 
   }
-
-
   registerMode() {
     this.isRegisterMode = true;
     }
 
-
-
-cancelRegisterMode(registerMode: boolean)
-{
-
+    cancelRegisterMode(registerMode: boolean) {
   this.isRegisterMode = registerMode;
   console.log(this.isRegisterMode);
-
-
 }
-
 }
